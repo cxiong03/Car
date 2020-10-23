@@ -26,6 +26,9 @@ public class Car {
         isOn = false;
     }
 
+    public Car(String color, String model, String vin, int tireCount, int year, boolean isOn) {
+    }
+
     public void drive() {
         if (!isOn) {
             System.out.println("Turn the car on first.");

@@ -8,5 +8,6 @@ public class Main {
         myCar.setModel("Ferrari");
         System.out.println(myCar.toString());
         myCar.displayDetails();
+
     }
 }
